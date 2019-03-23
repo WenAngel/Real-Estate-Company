@@ -1,0 +1,20 @@
+.btn {
+    white-space: nowrap;
+}
+
+a.card:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width:560px) {
+    #carouselExampleFade h1 {
+        font-size: 2rem;
+    }
+    #carouselExampleFade .btn {
+        margin-top: 0 !important;
+    }
+}
+
+.news-list li::before {
+    content: "．";
+}
